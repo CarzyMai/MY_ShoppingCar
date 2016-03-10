@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>brandName</key>
+		<string>1号店</string>
+		<key>products</key>
+		<array>
+			<dict>
+				<key>productPicUri</key>
+				<string>50</string>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productPrice</key>
+				<real>10000</real>
+				<key>productNum</key>
+				<string>50-50-50</string>
+				<key>originPrice</key>
+				<real>20000</real>
+				<key>productName</key>
+				<string>Message - 0</string>
+			</dict>
+			<dict>
+				<key>productPicUri</key>
+				<string>1</string>
+				<key>productQty</key>
+				<string>1</string>
+				<key>productPrice</key>
+				<real>10000</real>
+				<key>productNum</key>
+				<string>50-50-50</string>
+				<key>originPrice</key>
+				<real>20000</real>
+				<key>productName</key>
+				<string>Message - 1</string>
+			</dict>
+			<dict>
+				<key>productPicUri</key>
+				<string>1</string>
+				<key>productQty</key>
+				<integer>3</integer>
+				<key>productPrice</key>
+				<real>10000</real>
+				<key>productNum</key>
+				<string>50-50-50</string>
+				<key>originPrice</key>
+				<real>20000</real>
+				<key>productName</key>
+				<string>Message - 2</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>brandName</key>
+		<string>2号店</string>
+		<key>products</key>
+		<array>
+			<dict>
+				<key>productPicUri</key>
+				<string>1</string>
+				<key>productQty</key>
+				<integer>5</integer>
+				<key>productPrice</key>
+				<real>10000</real>
+				<key>productNum</key>
+				<string>50-50-50</string>
+				<key>originPrice</key>
+				<real>20000</real>
+				<key>productName</key>
+				<string>Message - 3</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

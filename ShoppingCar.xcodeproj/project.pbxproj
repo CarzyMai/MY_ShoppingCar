@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B14767657A4C67430784B4A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B955ACB28809EA241B095D5 /* libPods.a */; };
+		5BA257AE1C80562200F618B5 /* MY_KeyBordDoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA257AD1C80562200F618B5 /* MY_KeyBordDoneView.m */; };
+		5BBCB92E1C495958003154BC /* MY_ShoppingCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCB92D1C495958003154BC /* MY_ShoppingCarController.m */; };
+		5BBCB9311C495BA8003154BC /* MY_ShoppingCarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCB9301C495BA8003154BC /* MY_ShoppingCarCell.m */; };
+		5BD08BA41C49498D00C0AC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD08BA31C49498D00C0AC67 /* main.m */; };
+		5BD08BA71C49498D00C0AC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD08BA61C49498D00C0AC67 /* AppDelegate.m */; };
+		5BD08BAA1C49498D00C0AC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD08BA91C49498D00C0AC67 /* ViewController.m */; };
+		5BD08BAD1C49498D00C0AC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD08BAB1C49498D00C0AC67 /* Main.storyboard */; };
+		5BD08BAF1C49498D00C0AC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD08BAE1C49498D00C0AC67 /* Assets.xcassets */; };
+		5BD08BB21C49498D00C0AC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD08BB01C49498D00C0AC67 /* LaunchScreen.storyboard */; };
+		5BD08BBD1C49498D00C0AC67 /* ShoppingCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD08BBC1C49498D00C0AC67 /* ShoppingCarTests.m */; };
+		5BD08BC81C49498D00C0AC67 /* ShoppingCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD08BC71C49498D00C0AC67 /* ShoppingCarUITests.m */; };
+		5BD4D9221C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4D9211C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.m */; };
+		5BD4D9251C495CCA001FA9F6 /* MY_ShoppingCarEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4D9241C495CCA001FA9F6 /* MY_ShoppingCarEndView.m */; };
+		5BD4D9281C495CDF001FA9F6 /* MY_ShoppingCarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4D9271C495CDF001FA9F6 /* MY_ShoppingCarManager.m */; };
+		5BD4D92B1C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4D92A1C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.m */; };
+		9205DD4D1C49F45100AE70D1 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9205DD4C1C49F45100AE70D1 /* UIColor+Extend.m */; };
+		929CB5811C91933200439D35 /* MY_ShoppingCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5801C91933200439D35 /* MY_ShoppingCarModel.m */; };
+		929CB5981C91988D00439D35 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5851C91988D00439D35 /* MJExtensionConst.m */; };
+		929CB5991C91988D00439D35 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5871C91988D00439D35 /* MJFoundation.m */; };
+		929CB59A1C91988D00439D35 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5891C91988D00439D35 /* MJProperty.m */; };
+		929CB59B1C91988D00439D35 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB58B1C91988D00439D35 /* MJPropertyKey.m */; };
+		929CB59C1C91988D00439D35 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB58D1C91988D00439D35 /* MJPropertyType.m */; };
+		929CB59D1C91988D00439D35 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB58F1C91988D00439D35 /* NSObject+MJClass.m */; };
+		929CB59E1C91988D00439D35 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5911C91988D00439D35 /* NSObject+MJCoding.m */; };
+		929CB59F1C91988D00439D35 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5931C91988D00439D35 /* NSObject+MJKeyValue.m */; };
+		929CB5A01C91988D00439D35 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5951C91988D00439D35 /* NSObject+MJProperty.m */; };
+		929CB5A11C91988D00439D35 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 929CB5971C91988D00439D35 /* NSString+MJExtension.m */; };
+		92ECBDDF1C7EFE00004EDD9B /* shoppingCar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92ECBDDE1C7EFE00004EDD9B /* shoppingCar.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BD08BB91C49498D00C0AC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD08B971C49498D00C0AC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD08B9E1C49498D00C0AC67;
+			remoteInfo = ShoppingCar;
+		};
+		5BD08BC41C49498D00C0AC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD08B971C49498D00C0AC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD08B9E1C49498D00C0AC67;
+			remoteInfo = ShoppingCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485A81A952FD9C9CF860CB11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5B955ACB28809EA241B095D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA257AC1C80562200F618B5 /* MY_KeyBordDoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_KeyBordDoneView.h; sourceTree = "<group>"; };
+		5BA257AD1C80562200F618B5 /* MY_KeyBordDoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_KeyBordDoneView.m; sourceTree = "<group>"; };
+		5BBCB92C1C495958003154BC /* MY_ShoppingCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarController.h; sourceTree = "<group>"; };
+		5BBCB92D1C495958003154BC /* MY_ShoppingCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarController.m; sourceTree = "<group>"; };
+		5BBCB92F1C495BA8003154BC /* MY_ShoppingCarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarCell.h; sourceTree = "<group>"; };
+		5BBCB9301C495BA8003154BC /* MY_ShoppingCarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarCell.m; sourceTree = "<group>"; };
+		5BD08B9F1C49498D00C0AC67 /* ShoppingCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD08BA31C49498D00C0AC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BD08BA51C49498D00C0AC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BD08BA61C49498D00C0AC67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BD08BA81C49498D00C0AC67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BD08BA91C49498D00C0AC67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BD08BAC1C49498D00C0AC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BD08BAE1C49498D00C0AC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BD08BB11C49498D00C0AC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BD08BB31C49498D00C0AC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD08BB81C49498D00C0AC67 /* ShoppingCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD08BBC1C49498D00C0AC67 /* ShoppingCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarTests.m; sourceTree = "<group>"; };
+		5BD08BBE1C49498D00C0AC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD08BC31C49498D00C0AC67 /* ShoppingCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD08BC71C49498D00C0AC67 /* ShoppingCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarUITests.m; sourceTree = "<group>"; };
+		5BD08BC91C49498D00C0AC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD4D9201C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarHeaderView.h; sourceTree = "<group>"; };
+		5BD4D9211C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarHeaderView.m; sourceTree = "<group>"; };
+		5BD4D9231C495CCA001FA9F6 /* MY_ShoppingCarEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarEndView.h; sourceTree = "<group>"; };
+		5BD4D9241C495CCA001FA9F6 /* MY_ShoppingCarEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarEndView.m; sourceTree = "<group>"; };
+		5BD4D9261C495CDF001FA9F6 /* MY_ShoppingCarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarManager.h; sourceTree = "<group>"; };
+		5BD4D9271C495CDF001FA9F6 /* MY_ShoppingCarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarManager.m; sourceTree = "<group>"; };
+		5BD4D9291C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarChangeNumberView.h; sourceTree = "<group>"; };
+		5BD4D92A1C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarChangeNumberView.m; sourceTree = "<group>"; };
+		5DA1C8D2F78BAB36B3983DF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9205DD4A1C49EAF000AE70D1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9205DD4B1C49F45100AE70D1 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		9205DD4C1C49F45100AE70D1 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		929CB57F1C91933200439D35 /* MY_ShoppingCarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_ShoppingCarModel.h; sourceTree = "<group>"; };
+		929CB5801C91933200439D35 /* MY_ShoppingCarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_ShoppingCarModel.m; sourceTree = "<group>"; };
+		929CB5831C91988D00439D35 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		929CB5841C91988D00439D35 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		929CB5851C91988D00439D35 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		929CB5861C91988D00439D35 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		929CB5871C91988D00439D35 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		929CB5881C91988D00439D35 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		929CB5891C91988D00439D35 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		929CB58A1C91988D00439D35 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		929CB58B1C91988D00439D35 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		929CB58C1C91988D00439D35 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		929CB58D1C91988D00439D35 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		929CB58E1C91988D00439D35 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		929CB58F1C91988D00439D35 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		929CB5901C91988D00439D35 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		929CB5911C91988D00439D35 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		929CB5921C91988D00439D35 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		929CB5931C91988D00439D35 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		929CB5941C91988D00439D35 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		929CB5951C91988D00439D35 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		929CB5961C91988D00439D35 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		929CB5971C91988D00439D35 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		92ECBDDE1C7EFE00004EDD9B /* shoppingCar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shoppingCar.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD08B9C1C49498D00C0AC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B14767657A4C67430784B4A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD08BB51C49498D00C0AC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD08BC01C49498D00C0AC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6A8217B3C4F63D540AA846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B955ACB28809EA241B095D5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C9563BC6C1AEF09397B0BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485A81A952FD9C9CF860CB11 /* Pods.debug.xcconfig */,
+				5DA1C8D2F78BAB36B3983DF7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BBCB9271C49593D003154BC /* MY_ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				5BBCB9281C49593D003154BC /* Controller */,
+				5BBCB9291C49593D003154BC /* Model */,
+				5BBCB92A1C49593D003154BC /* Tools */,
+				5BBCB92B1C49593D003154BC /* View */,
+			);
+			path = MY_ShoppingCar;
+			sourceTree = "<group>";
+		};
+		5BBCB9281C49593D003154BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5BBCB92C1C495958003154BC /* MY_ShoppingCarController.h */,
+				5BBCB92D1C495958003154BC /* MY_ShoppingCarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5BBCB9291C49593D003154BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				929CB57F1C91933200439D35 /* MY_ShoppingCarModel.h */,
+				929CB5801C91933200439D35 /* MY_ShoppingCarModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BBCB92A1C49593D003154BC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4D9261C495CDF001FA9F6 /* MY_ShoppingCarManager.h */,
+				5BD4D9271C495CDF001FA9F6 /* MY_ShoppingCarManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5BBCB92B1C49593D003154BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BBCB92F1C495BA8003154BC /* MY_ShoppingCarCell.h */,
+				5BBCB9301C495BA8003154BC /* MY_ShoppingCarCell.m */,
+				5BD4D9201C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.h */,
+				5BD4D9211C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.m */,
+				5BD4D9291C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.h */,
+				5BD4D92A1C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.m */,
+				5BD4D9231C495CCA001FA9F6 /* MY_ShoppingCarEndView.h */,
+				5BD4D9241C495CCA001FA9F6 /* MY_ShoppingCarEndView.m */,
+				5BA257AC1C80562200F618B5 /* MY_KeyBordDoneView.h */,
+				5BA257AD1C80562200F618B5 /* MY_KeyBordDoneView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BD08B961C49498D00C0AC67 = {
+			isa = PBXGroup;
+			children = (
+				5BD08BA11C49498D00C0AC67 /* ShoppingCar */,
+				5BD08BBB1C49498D00C0AC67 /* ShoppingCarTests */,
+				5BD08BC61C49498D00C0AC67 /* ShoppingCarUITests */,
+				5BD08BA01C49498D00C0AC67 /* Products */,
+				3C9563BC6C1AEF09397B0BD3 /* Pods */,
+				3B6A8217B3C4F63D540AA846 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BD08BA01C49498D00C0AC67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BD08B9F1C49498D00C0AC67 /* ShoppingCar.app */,
+				5BD08BB81C49498D00C0AC67 /* ShoppingCarTests.xctest */,
+				5BD08BC31C49498D00C0AC67 /* ShoppingCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD08BA11C49498D00C0AC67 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				929CB5821C91988D00439D35 /* MJExtension */,
+				5BBCB9271C49593D003154BC /* MY_ShoppingCar */,
+				5BD08BA51C49498D00C0AC67 /* AppDelegate.h */,
+				5BD08BA61C49498D00C0AC67 /* AppDelegate.m */,
+				5BD08BA81C49498D00C0AC67 /* ViewController.h */,
+				5BD08BA91C49498D00C0AC67 /* ViewController.m */,
+				9205DD4B1C49F45100AE70D1 /* UIColor+Extend.h */,
+				9205DD4C1C49F45100AE70D1 /* UIColor+Extend.m */,
+				9205DD4A1C49EAF000AE70D1 /* PrefixHeader.pch */,
+				5BD08BAB1C49498D00C0AC67 /* Main.storyboard */,
+				5BD08BAE1C49498D00C0AC67 /* Assets.xcassets */,
+				5BD08BB01C49498D00C0AC67 /* LaunchScreen.storyboard */,
+				5BD08BB31C49498D00C0AC67 /* Info.plist */,
+				92ECBDDE1C7EFE00004EDD9B /* shoppingCar.plist */,
+				5BD08BA21C49498D00C0AC67 /* Supporting Files */,
+			);
+			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		5BD08BA21C49498D00C0AC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BD08BA31C49498D00C0AC67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BD08BBB1C49498D00C0AC67 /* ShoppingCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD08BBC1C49498D00C0AC67 /* ShoppingCarTests.m */,
+				5BD08BBE1C49498D00C0AC67 /* Info.plist */,
+			);
+			path = ShoppingCarTests;
+			sourceTree = "<group>";
+		};
+		5BD08BC61C49498D00C0AC67 /* ShoppingCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD08BC71C49498D00C0AC67 /* ShoppingCarUITests.m */,
+				5BD08BC91C49498D00C0AC67 /* Info.plist */,
+			);
+			path = ShoppingCarUITests;
+			sourceTree = "<group>";
+		};
+		929CB5821C91988D00439D35 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				929CB5831C91988D00439D35 /* MJExtension.h */,
+				929CB5841C91988D00439D35 /* MJExtensionConst.h */,
+				929CB5851C91988D00439D35 /* MJExtensionConst.m */,
+				929CB5861C91988D00439D35 /* MJFoundation.h */,
+				929CB5871C91988D00439D35 /* MJFoundation.m */,
+				929CB5881C91988D00439D35 /* MJProperty.h */,
+				929CB5891C91988D00439D35 /* MJProperty.m */,
+				929CB58A1C91988D00439D35 /* MJPropertyKey.h */,
+				929CB58B1C91988D00439D35 /* MJPropertyKey.m */,
+				929CB58C1C91988D00439D35 /* MJPropertyType.h */,
+				929CB58D1C91988D00439D35 /* MJPropertyType.m */,
+				929CB58E1C91988D00439D35 /* NSObject+MJClass.h */,
+				929CB58F1C91988D00439D35 /* NSObject+MJClass.m */,
+				929CB5901C91988D00439D35 /* NSObject+MJCoding.h */,
+				929CB5911C91988D00439D35 /* NSObject+MJCoding.m */,
+				929CB5921C91988D00439D35 /* NSObject+MJKeyValue.h */,
+				929CB5931C91988D00439D35 /* NSObject+MJKeyValue.m */,
+				929CB5941C91988D00439D35 /* NSObject+MJProperty.h */,
+				929CB5951C91988D00439D35 /* NSObject+MJProperty.m */,
+				929CB5961C91988D00439D35 /* NSString+MJExtension.h */,
+				929CB5971C91988D00439D35 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BD08B9E1C49498D00C0AC67 /* ShoppingCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD08BCC1C49498D00C0AC67 /* Build configuration list for PBXNativeTarget "ShoppingCar" */;
+			buildPhases = (
+				F29560360C1746E731D39279 /* Check Pods Manifest.lock */,
+				5BD08B9B1C49498D00C0AC67 /* Sources */,
+				5BD08B9C1C49498D00C0AC67 /* Frameworks */,
+				5BD08B9D1C49498D00C0AC67 /* Resources */,
+				F0D72B6FCEEAAB349AF0F4D6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingCar;
+			productName = ShoppingCar;
+			productReference = 5BD08B9F1C49498D00C0AC67 /* ShoppingCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BD08BB71C49498D00C0AC67 /* ShoppingCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD08BCF1C49498D00C0AC67 /* Build configuration list for PBXNativeTarget "ShoppingCarTests" */;
+			buildPhases = (
+				5BD08BB41C49498D00C0AC67 /* Sources */,
+				5BD08BB51C49498D00C0AC67 /* Frameworks */,
+				5BD08BB61C49498D00C0AC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD08BBA1C49498D00C0AC67 /* PBXTargetDependency */,
+			);
+			name = ShoppingCarTests;
+			productName = ShoppingCarTests;
+			productReference = 5BD08BB81C49498D00C0AC67 /* ShoppingCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BD08BC21C49498D00C0AC67 /* ShoppingCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD08BD21C49498D00C0AC67 /* Build configuration list for PBXNativeTarget "ShoppingCarUITests" */;
+			buildPhases = (
+				5BD08BBF1C49498D00C0AC67 /* Sources */,
+				5BD08BC01C49498D00C0AC67 /* Frameworks */,
+				5BD08BC11C49498D00C0AC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD08BC51C49498D00C0AC67 /* PBXTargetDependency */,
+			);
+			name = ShoppingCarUITests;
+			productName = ShoppingCarUITests;
+			productReference = 5BD08BC31C49498D00C0AC67 /* ShoppingCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BD08B971C49498D00C0AC67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MY_;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "麥展毅";
+				TargetAttributes = {
+					5BD08B9E1C49498D00C0AC67 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5BD08BB71C49498D00C0AC67 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5BD08B9E1C49498D00C0AC67;
+					};
+					5BD08BC21C49498D00C0AC67 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5BD08B9E1C49498D00C0AC67;
+					};
+				};
+			};
+			buildConfigurationList = 5BD08B9A1C49498D00C0AC67 /* Build configuration list for PBXProject "ShoppingCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BD08B961C49498D00C0AC67;
+			productRefGroup = 5BD08BA01C49498D00C0AC67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BD08B9E1C49498D00C0AC67 /* ShoppingCar */,
+				5BD08BB71C49498D00C0AC67 /* ShoppingCarTests */,
+				5BD08BC21C49498D00C0AC67 /* ShoppingCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD08B9D1C49498D00C0AC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD08BB21C49498D00C0AC67 /* LaunchScreen.storyboard in Resources */,
+				92ECBDDF1C7EFE00004EDD9B /* shoppingCar.plist in Resources */,
+				5BD08BAF1C49498D00C0AC67 /* Assets.xcassets in Resources */,
+				5BD08BAD1C49498D00C0AC67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD08BB61C49498D00C0AC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD08BC11C49498D00C0AC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0D72B6FCEEAAB349AF0F4D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29560360C1746E731D39279 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD08B9B1C49498D00C0AC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929CB5811C91933200439D35 /* MY_ShoppingCarModel.m in Sources */,
+				929CB5991C91988D00439D35 /* MJFoundation.m in Sources */,
+				929CB5981C91988D00439D35 /* MJExtensionConst.m in Sources */,
+				5BBCB9311C495BA8003154BC /* MY_ShoppingCarCell.m in Sources */,
+				5BD4D9221C495CA3001FA9F6 /* MY_ShoppingCarHeaderView.m in Sources */,
+				5BD4D9281C495CDF001FA9F6 /* MY_ShoppingCarManager.m in Sources */,
+				5BD08BAA1C49498D00C0AC67 /* ViewController.m in Sources */,
+				5BD08BA71C49498D00C0AC67 /* AppDelegate.m in Sources */,
+				929CB59F1C91988D00439D35 /* NSObject+MJKeyValue.m in Sources */,
+				9205DD4D1C49F45100AE70D1 /* UIColor+Extend.m in Sources */,
+				929CB59D1C91988D00439D35 /* NSObject+MJClass.m in Sources */,
+				5BA257AE1C80562200F618B5 /* MY_KeyBordDoneView.m in Sources */,
+				929CB5A11C91988D00439D35 /* NSString+MJExtension.m in Sources */,
+				5BD08BA41C49498D00C0AC67 /* main.m in Sources */,
+				5BD4D92B1C495E5E001FA9F6 /* MY_ShoppingCarChangeNumberView.m in Sources */,
+				5BBCB92E1C495958003154BC /* MY_ShoppingCarController.m in Sources */,
+				929CB59C1C91988D00439D35 /* MJPropertyType.m in Sources */,
+				929CB5A01C91988D00439D35 /* NSObject+MJProperty.m in Sources */,
+				929CB59E1C91988D00439D35 /* NSObject+MJCoding.m in Sources */,
+				929CB59A1C91988D00439D35 /* MJProperty.m in Sources */,
+				5BD4D9251C495CCA001FA9F6 /* MY_ShoppingCarEndView.m in Sources */,
+				929CB59B1C91988D00439D35 /* MJPropertyKey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD08BB41C49498D00C0AC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD08BBD1C49498D00C0AC67 /* ShoppingCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD08BBF1C49498D00C0AC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD08BC81C49498D00C0AC67 /* ShoppingCarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BD08BBA1C49498D00C0AC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD08B9E1C49498D00C0AC67 /* ShoppingCar */;
+			targetProxy = 5BD08BB91C49498D00C0AC67 /* PBXContainerItemProxy */;
+		};
+		5BD08BC51C49498D00C0AC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD08B9E1C49498D00C0AC67 /* ShoppingCar */;
+			targetProxy = 5BD08BC41C49498D00C0AC67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BD08BAB1C49498D00C0AC67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD08BAC1C49498D00C0AC67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD08BB01C49498D00C0AC67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD08BB11C49498D00C0AC67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BD08BCA1C49498D00C0AC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BD08BCB1C49498D00C0AC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD08BCD1C49498D00C0AC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485A81A952FD9C9CF860CB11 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/avgd-mai/Desktop/MY_ShoppingCar-/ShoppingCar/PrefixHeader.pch";
+				INFOPLIST_FILE = ShoppingCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShoppingCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BD08BCE1C49498D00C0AC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA1C8D2F78BAB36B3983DF7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/avgd-mai/Desktop/MY_ShoppingCar-/ShoppingCar/PrefixHeader.pch";
+				INFOPLIST_FILE = ShoppingCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShoppingCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BD08BD01C49498D00C0AC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShoppingCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MY.ShoppingCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCar.app/ShoppingCar";
+			};
+			name = Debug;
+		};
+		5BD08BD11C49498D00C0AC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShoppingCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MY.ShoppingCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCar.app/ShoppingCar";
+			};
+			name = Release;
+		};
+		5BD08BD31C49498D00C0AC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShoppingCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MY.ShoppingCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShoppingCar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5BD08BD41C49498D00C0AC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShoppingCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MY.ShoppingCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShoppingCar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BD08B9A1C49498D00C0AC67 /* Build configuration list for PBXProject "ShoppingCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD08BCA1C49498D00C0AC67 /* Debug */,
+				5BD08BCB1C49498D00C0AC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD08BCC1C49498D00C0AC67 /* Build configuration list for PBXNativeTarget "ShoppingCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD08BCD1C49498D00C0AC67 /* Debug */,
+				5BD08BCE1C49498D00C0AC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD08BCF1C49498D00C0AC67 /* Build configuration list for PBXNativeTarget "ShoppingCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD08BD01C49498D00C0AC67 /* Debug */,
+				5BD08BD11C49498D00C0AC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD08BD21C49498D00C0AC67 /* Build configuration list for PBXNativeTarget "ShoppingCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD08BD31C49498D00C0AC67 /* Debug */,
+				5BD08BD41C49498D00C0AC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BD08B971C49498D00C0AC67 /* Project object */;
+}

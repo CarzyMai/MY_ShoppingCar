@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  ShoppingCar
+//
+//  Created by AVGD－Mai on 16/1/16.
+//  Copyright © 2016年 麥展毅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+Extend.h"
+#import "Masonry.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+#define AUTO_MATE_WIDTH(width) ((width) * SCREEN_WIDTH / 320.0)
+#define AUTO_MATE_HEIGHT(height) ((height) * SCREEN_HEIGHT / 568.0)   
+
+#define RGB(r,g,b) [UIColor colorWithRed:r green:g blue:b alpha:1]
+// 自定义字体
+#define MyFont(theSize) ([UIFont fontWithName:@"FZCuYuan-M03S" size:theSize])
+//字体
+#define systemFont(font) ([UIFont systemFontOfSize:font])
+#define boldSystemFont(font) ([UIFont boldSystemFontOfSize:font])
+//16进制色
+#define hexColor(colorV) [UIColor colorWithHexColorString:@#colorV]
+
+#endif /* PrefixHeader_pch */
