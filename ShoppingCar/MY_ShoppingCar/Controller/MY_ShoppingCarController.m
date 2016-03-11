@@ -114,7 +114,7 @@
     CGRect keyboardRect = [aValue CGRectValue];
     int height = keyboardRect.size.height;
     
-    MY_KeyBordDoneView *doneView = [[MY_KeyBordDoneView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-AUTO_MATE_HEIGHT(100)-height, SCREEN_WIDTH, AUTO_MATE_HEIGHT(50))];
+    MY_KeyBordDoneView *doneView = [[MY_KeyBordDoneView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-AUTO_MATE_HEIGHT(100)-height+64, SCREEN_WIDTH, AUTO_MATE_HEIGHT(50))];
     doneView.alpha = 0;
     doneView.delegate = self;
     doneView.tag = 1888;

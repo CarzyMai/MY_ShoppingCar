@@ -200,15 +200,8 @@
  *  判断用户输入数量是否大于存库数量或为0,以及加减button是否能被点击
  */
 - (void)textFieldDidEndEditing:(UITextField *)textField {
-    if ([textField.text intValue] < 1) {
-        textField.text = @"1";
-        _changeView.addButton.enabled = YES;
-        _changeView.subtractButton.enabled = NO;
-    }
     if ([textField.text intValue] > 99) {
         textField.text = @"99";
-        _changeView.addButton.enabled = NO;
-        _changeView.subtractButton.enabled = YES;
     }
     if (self.delegate && [self.delegate respondsToSelector:@selector(shoppingCarCellChangeCountText:indexPath:)]) {
         [self.delegate shoppingCarCellChangeCountText:textField.text indexPath:thisIndexPath];

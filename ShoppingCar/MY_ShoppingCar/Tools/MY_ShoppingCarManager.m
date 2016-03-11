@@ -180,6 +180,9 @@
     __block Products *goodsModel = shopModel.products[indexPath.row];
     [self didSelectCellWithIndexPath:indexPath senderSelect:NO];
     goodsModel.productQty = (goodsModel.productQty + 1);
+    if (goodsModel.productQty > 99) {
+        goodsModel.productQty = 99;
+    }
     if ([self.selectArray containsObject:shopModel]) {
         [self.selectArray removeObject:shopModel];
     }
@@ -192,6 +195,9 @@
     Products *goodsModel = shopModel.products[indexPath.row];
     [self didSelectCellWithIndexPath:indexPath senderSelect:NO];
     goodsModel.productQty = (goodsModel.productQty - 1);
+    if (goodsModel.productQty < 1) {
+        goodsModel.productQty = 1;
+    }
     if ([self.selectArray containsObject:shopModel]) {
         [self.selectArray removeObject:shopModel];
     }
